@@ -135,4 +135,29 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
+
+  # --- Subspec -------------------------------------------------------------------- #
+	
+   s.subspec 'Util' do |ss|
+     ss.source_files = 'Classes/Util/ZCPUtil.{h,m}'
+     ss.public_header_files = 'Classes/Util/ZCPUtil.h'
+   end
+
+   s.subspec 'Router' do |ss|
+     ss.source_files = 'Classes/Router/ZCPRouter.{h,m}'
+     ss.public_header_files = 'Classes/Router/ZCPRouter.h'
+   end
+
+
+
+
+
+
+
+
+
+
+
+
+
 end
