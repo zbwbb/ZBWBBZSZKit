@@ -136,7 +136,7 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
 
-  # --- Subspec -------------------------------------------------------------------- #
+  # --- subspec -------------------------------------------------------------------- #
 	
    s.subspec 'Util' do |ss|
      ss.source_files = 'Classes/Util/ZCPUtil.{h,m}'
