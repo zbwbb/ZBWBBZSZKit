@@ -102,7 +102,7 @@ Pod::Spec.new do |s|
     ss.public_header_files = 'Classes/ZCPUtil.h'
   end
   s.subspec 'Router' do |ss|
-    ss.dependency 'ZCPKit/Util'
+    ss.dependency 'ZBWBBZSZKit/Util'
     ss.source_files = 'Classes/ZCPRouter.{h,m}'
     ss.public_header_files = 'Classes/ZCPRouter.h'
   end
