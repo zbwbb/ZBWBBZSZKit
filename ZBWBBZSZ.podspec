@@ -97,7 +97,10 @@ Pod::Spec.new do |s|
   s.public_header_files = "Classes/ZCPKit.h"
 
 # --- subspec -------------------------------------------------------------------- #
-	
+  s.subspec 'Util' do |ss|
+    ss.source_files = 'Classes/Util/ZCPUtil.{h,m}'
+    ss.public_header_files = 'Classes/Util/ZCPUtil.h'
+  end
 
 
 
