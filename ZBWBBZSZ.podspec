@@ -96,6 +96,14 @@ Pod::Spec.new do |s|
 
   s.public_header_files = "Classes/ZCPKit.h"
 
+# --- subspec -------------------------------------------------------------------- #
+	
+   s.subspec 'Util' do |ss|
+     ss.source_files = 'Classes/Util/ZCPUtil.{h,m}'
+     ss.public_header_files = 'Classes/Util/ZCPUtil.h'
+   end
+
+
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -136,28 +144,7 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
 
-  # --- subspec -------------------------------------------------------------------- #
-	
-   s.subspec 'Util' do |ss|
-     ss.source_files = 'Classes/Util/ZCPUtil.{h,m}'
-     ss.public_header_files = 'Classes/Util/ZCPUtil.h'
-   end
-
-   #s.subspec 'Router' do |ss|
-   # # ss.dependency 'Util'
-    # ss.source_files = 'Classes/Router/ZCPRouter.{h,m}'
-   #  ss.public_header_files = 'Classes/Router/ZCPRouter.h'
-   #end
-
-
-
-
-
-
-
-
-
-
+  
 
 
 
