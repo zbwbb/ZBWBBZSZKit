@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZBWBBZSZ"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "ZBWBBZSZ."
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes/**/*"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "Classes/**/*"
+  # s.public_header_files = "Classes/**/*"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
