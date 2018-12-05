@@ -102,7 +102,7 @@ Pod::Spec.new do |s|
     ss.public_header_files = 'Classes/ZCPUtil.h'
   end
   s.subspec 'Router' do |ss|
-    ss.dependency 'Reach'
+    ss.dependency "JSONKit", "~> 1.4"
     ss.source_files = 'Classes/ZCPRouter.{h,m}'
     ss.public_header_files = 'Classes/ZCPRouter.h'
   end
